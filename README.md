@@ -1,4 +1,76 @@
-ime-sawrauz
-===========
+旧壮文输入法
+============
 
-旧壮文输入法码表，适用于小狼毫输入法平台。
+
+安装方法
+--------
+
+这祗是一个码表。因此请先下载 [小狼毫输入法平台](http://dl.bintray.com/lotem/rime/weasel-0.9.24.0-installer.exe?direct)
+并安装。安装完毕後将 **ime_dayzrauz.dict.yaml** 和 **ime_dayzrauz.schema.yaml** 都复制到小狼毫输入法的安装目录下。
+一般位于:
+
+Windows XP 以及 Windows 7 64 位版缺省位置在:
+
+C:\Program Files\Rime\weasel-0.9.24\data\
+
+Windows 7 32 位缺省位置在：
+
+C:\Program Files (x86)\Rime\weasel-0.9.24\data\
+
+复制完毕後从开始菜单中运行“小狼毫输入法\重新部署小狼毫”，并运行“小狼毫輸入法設定”，从选择框中选取“SAƜ-RƏUƧ”
+即可开始使用。
+
+
+
+使用说明
+--------
+
+目前这一输入法仅提供简单的输入转换功能，祗要用新壮文方案输入一个词，即可转换成对应的旧壮文。如，输入 raeuz，
+输入法会自动提示 ，此時单击空格即可。
+
+要注意的是，限于旧壮文字体的问题，请在显示壮文的地方（编辑器、网页等）选用适当的字体，如：微软雅黑。否则
+文字显示会非常不整齐，这不是输入法的问题。
+
+
+### 特殊声母、韵母输入方法
+
+<table>
+	<tr>
+		<td>输入</td>
+		<td>输出</td>
+	</tr>
+
+	<tr>
+		<td>Mb/MB, mb</td>
+		<td>Ƃ, ƃ</td>
+	</tr>
+
+	<tr>
+		<td>Nd/ND, nd</td>
+		<td>Ƌ ƌ</td>
+	</tr>
+
+	<tr>
+		<td>Ng/NG, ng</td>
+		<td>Ŋ, ŋ</td>
+	</tr>
+	
+	<tr>
+		<td>Ae/AE, ae</td>
+		<td>Ə, ə</td>
+	</tr>
+	
+	<tr>
+		<td>Oe/OE, oe</td>
+		<td>Ө, ө</td>
+	</tr>
+	
+	<tr>
+		<td>W, w</td>
+		<td>Ɯ, ɯ</td>
+	</tr>
+</table>
+
+声调符号直接输入即可。
+
+
