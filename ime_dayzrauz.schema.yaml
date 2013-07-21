@@ -1,0 +1,37 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: ime_dayzrauz
+  name: SƏƜ-RƏUƧ
+  version: "1.0"
+  author:
+    - Hienjningz Luengz (梁显宁) <52188787@qq.com>
+  description: |
+      老壮文输入法
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - speller
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - r10n_translator
+
+speller:
+  alphabet: 'ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba_<>\`~."%'':@{}1234567890&?!^|=-+/'
+  delimiter: ' '
+
+translator:
+  dictionary: ime_dayzrauz
